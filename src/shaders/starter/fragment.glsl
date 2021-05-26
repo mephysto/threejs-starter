@@ -1,4 +1,4 @@
-float cnoise(vec3 P)
+/* float cnoise(vec3 P)
 {
   vec3 Pi0=floor(P);// Integer part for indexing
   vec3 Pi1=Pi0+vec3(1.);// Integer part + 1
@@ -67,7 +67,7 @@ float cnoise(vec3 P)
   
   return 2.2*n_xyz;
 }
-
+ */
 void main()
 {
 }

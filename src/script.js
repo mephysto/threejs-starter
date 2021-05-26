@@ -5,8 +5,8 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader.js";
 
-import { starterVertexShader } from "./shaders/starter/vertex.glsl";
-import { starterFragmentShader } from "./shaders/starter/fragment.glsl";
+import starterVertexShader from "./shaders/starter/vertex.glsl";
+import starterFragmentShader from "./shaders/starter/fragment.glsl";
 
 /**
  * Base
